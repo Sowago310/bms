@@ -1,0 +1,66 @@
+body {
+    background-image: url('images/background.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(245, 242, 242); /* Ensures all text is readable */
+}
+
+.col-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensures the column takes the full height */
+}
+
+form {
+    background: rgba(255, 255, 255, 0.9); /* Light background with slight transparency */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    width: 100%; /* Ensure the form takes full width inside its column */
+    max-width: 400px; /* Optional: Limits form width */
+}
+
+h1, h3 {
+    color: #ffffff; /* White title */
+}
+
+input {
+    background: #fff; /* White input fields */
+    color: #333; /* Dark text */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Ensures inputs take full width */
+    margin-bottom: 10px; /* Adds space between inputs */
+}
+
+input::placeholder {
+    color: #666; /* Gray placeholder */
+}
+
+input[type="submit"] {
+    background: #007bff; /* Blue submit button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Makes submit button take the full width */
+}
+
+input[type="submit"]:hover {
+    background: #0056b3; /* Darker blue on hover */
+}
+
+/* Optional: Styling for links */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
